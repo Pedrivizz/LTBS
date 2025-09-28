@@ -1,12 +1,10 @@
 import { Facebook, Instagram, Twitter } from 'lucide-react';
 import Link from 'next/link';
-import { TiktokIcon } from '../icons/tiktok';
 
 const socialLinks = [
   { name: 'Facebook', icon: <Facebook className="h-6 w-6" />, href: '#' },
   { name: 'Instagram', icon: <Instagram className="h-6 w-6" />, href: '#' },
   { name: 'X', icon: <Twitter className="h-6 w-6" />, href: '#' },
-  { name: 'TikTok', icon: <TiktokIcon className="h-6 w-6" />, href: '#' },
 ];
 
 export function Footer() {
