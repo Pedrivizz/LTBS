@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "paula",
+      "description": "Paula loves creating colorful and tasty snacks that are as fun to look at as they are to eat!",
+      "imageUrl": "https://images.unsplash.com/photo-1598625873873-52f9aefd7d9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzU4OTgzNjk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "heidie",
+      "description": "Heidie is our breakfast champion, always finding new ways to make the first meal of the day exciting and full of energy.",
+      "imageUrl": "https://images.unsplash.com/photo-1535295972055-1c762f4483e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJzb24lMjBoYXBweXxlbnwwfHx8fDE3NTkwMjk2OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person happy"
+    },
+    {
+      "id": "mayra",
+      "description": "Mayra is a magician with veggies, turning them into delicious meals that even the pickiest eaters can't resist.",
+      "imageUrl": "https://images.unsplash.com/photo-1678274326983-b03afca5b0a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21hbiUyMGNoZWZ8ZW58MHx8fHwxNzU5MDMyNjgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman chef"
+    },
+    {
+      "id": "jacky",
+      "description": "Jacky is the expert on wholesome lunches, packing power and flavor into every single bite to fuel afternoon adventures.",
+      "imageUrl": "https://images.unsplash.com/photo-1556911073-a517e752729c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJzb24lMjBjb29raW5nfGVufDB8fHx8MTc1OTAxMjQ0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person cooking"
+    }
+  ]
 }
