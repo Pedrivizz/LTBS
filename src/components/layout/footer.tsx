@@ -1,10 +1,12 @@
 import { Facebook, Instagram, Twitter } from 'lucide-react';
 import Link from 'next/link';
+import { WhatsappIcon } from '../icons/whatsapp';
 
 const socialLinks = [
   { name: 'Facebook', icon: <Facebook className="h-6 w-6" />, href: '#' },
   { name: 'Instagram', icon: <Instagram className="h-6 w-6" />, href: '#' },
   { name: 'X', icon: <Twitter className="h-6 w-6" />, href: '#' },
+  { name: 'WhatsApp', icon: <WhatsappIcon className="h-6 w-6" />, href: '#' },
 ];
 
 export function Footer() {
