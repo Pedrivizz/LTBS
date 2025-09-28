@@ -28,7 +28,7 @@ export default function AboutUsPage() {
           Neva
         </p>
         <p className="italic text-muted-foreground mb-6">
-          "Un futuro educativo conectado"
+          "A connected educational future"
         </p>
         <p className="max-w-3xl mx-auto text-lg text-foreground/80 mb-12">
           Hi, we’re Paula, Heidie, Mayra and Jacky. This vlog will be about what your little one can eat on a daily basis. We hope you enjoy it.
