@@ -51,14 +51,6 @@ export default function Home() {
         <p className="max-w-3xl mx-auto text-lg md:text-xl text-foreground/80 mb-8">
           Welcome to a world of delicious and nutritious meals designed for little ones. We believe that healthy eating should be joyful, simple, and a delightful adventure for the whole family.
         </p>
-        <div className="flex justify-center gap-4">
-          <Button asChild size="lg">
-            <Link href="/recipes">View Recipes <ArrowRight className="ml-2 h-5 w-5" /></Link>
-          </Button>
-          <Button asChild size="lg" variant="outline">
-            <Link href="/about">About Us</Link>
-          </Button>
-        </div>
       </section>
 
       <section className="mt-16 md:mt-24">
