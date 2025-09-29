@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Textarea } from '@/components/ui/textarea';
@@ -12,10 +12,25 @@ export default function LeaveCommentPage() {
   const [submittedComments, setSubmittedComments] = useState<string[]>([]);
   const { toast } = useToast();
 
+  useEffect(() => {
+    try {
+      const storedComments = localStorage.getItem('submittedComments');
+      if (storedComments) {
+        setSubmittedComments(JSON.parse(storedComments));
+      }
+    } catch (error) {
+      console.error('Failed to parse comments from localStorage', error);
+      // Handle the error, e.g., by clearing the stored item if it's corrupted
+      localStorage.removeItem('submittedComments');
+    }
+  }, []);
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (comment.trim()) {
-      setSubmittedComments((prev) => [comment, ...prev]);
+      const newComments = [comment, ...submittedComments];
+      setSubmittedComments(newComments);
+      localStorage.setItem('submittedComments', JSON.stringify(newComments));
       setComment('');
       toast({
         title: "Comment Sent!",
