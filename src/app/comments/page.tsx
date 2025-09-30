@@ -8,6 +8,7 @@ import { Send, User } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 const initialComments = [
+  "Very Good , information incredible",
   "This blog is a great help for moms and dads looking for practical and realistic ideas for their children's nutrition.",
   "I love how you explain the importance of combining nutritious foods with creativity so that little ones enjoy their meals.",
   "It's so nice to see how small routines can help children develop great healthy habits.",
