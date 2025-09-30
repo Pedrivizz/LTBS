@@ -12,7 +12,17 @@ const initialComments = [
   "This blog is a great help for moms and dads looking for practical and realistic ideas for their children's nutrition.",
   "I love how you explain the importance of combining nutritious foods with creativity so that little ones enjoy their meals.",
   "It's so nice to see how small routines can help children develop great healthy habits.",
-  "Thank you for sharing clear routines, so children learn to take care of their health naturally."
+  "Thank you for sharing clear routines, so children learn to take care of their health naturally.",
+  "very creative blog",
+  "I love it, it helped me organize my meals better.",
+  "Simple but very valuable content",
+  "I like it because it offers great ideas for lunchboxes.",
+  "Very informative because it motivates us to take care of our little ones' health.",
+  "What a lovely blog! It's very practical and easy to understand.",
+  "I find this blog very inspiring.",
+  "It helps you plan your day better.",
+  "Very clear to apply with children.",
+  "Thank you for sharing such helpful routines"
 ];
 
 
