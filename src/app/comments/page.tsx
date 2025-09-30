@@ -7,6 +7,14 @@ import { Textarea } from '@/components/ui/textarea';
 import { Send, User } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
+const initialComments = [
+  "This blog is a great help for moms and dads looking for practical and realistic ideas for their children's nutrition.",
+  "I love how you explain the importance of combining nutritious foods with creativity so that little ones enjoy their meals.",
+  "It's so nice to see how small routines can help children develop great healthy habits.",
+  "Thank you for sharing clear routines, so children learn to take care of their health naturally."
+];
+
+
 export default function LeaveCommentPage() {
   const [comment, setComment] = useState('');
   const [submittedComments, setSubmittedComments] = useState<string[]>([]);
@@ -17,10 +25,12 @@ export default function LeaveCommentPage() {
       const storedComments = localStorage.getItem('submittedComments');
       if (storedComments) {
         setSubmittedComments(JSON.parse(storedComments));
+      } else {
+        setSubmittedComments(initialComments);
       }
     } catch (error) {
       console.error('Failed to parse comments from localStorage', error);
-      // Handle the error, e.g., by clearing the stored item if it's corrupted
+      setSubmittedComments(initialComments);
       localStorage.removeItem('submittedComments');
     }
   }, []);
